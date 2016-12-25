@@ -6,17 +6,16 @@
 	<meta name = "about" content = "brendonho01">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="BhoAvatar.ico" type="image/x-icon"/>
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="javascripts/animatedModal.min.js"></script>
-  <script src="javascripts/bootstrap.min.js"></script>
+  <script src="animatedModal.min.js"></script>
+  <script src="bootstrap.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Montserrat:700|Raleway|Poppins|Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="animate.css">
-  <script src="animatedModal.min.js"></script>
      
 </head>
 <body>
@@ -25,7 +24,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
       </button>
-      <a class="navbar-brand" href="#animatedModal"><img id = "bhoimage" src="images/bho.png"></a>
+      <a class="navbar-brand" href="#animatedModal"><img id = "bhoimage" src="bho.png"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -54,7 +53,7 @@
 </nav>
 
     <div id="animatedModal">
-        <div class="close-animatedModal"><img id = "cool" src="bho.png" width = "25" height="25"></div>
+        <div class="close-animatedModal"><img id = "cool" src="http://edufactor.org/images/icons/zoneLB/Close-X-gy.png" width = "25" height="25"></div>
             
         <div class="modal-content">
         <div id = "desc">
@@ -74,5 +73,7 @@
         </div>
     </div>
     </body>
-<script src = "stuff.js"></script>
+<script>
+	$(".navbar-brand").animatedModal();
+</script>
 </html>

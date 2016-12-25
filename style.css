@@ -5,5 +5,79 @@ html, body{
 	display: table;
 }
 body{
-	background: url("bg.jpg") no-repeat center center scroll;
+	background: url("http://junkpit.net/wp-content/uploads/2011/08/Flinders-Street-Melbourne-Night-Freehand-003-Black-White.jpg") no-repeat center center scroll;
+}
+#text{
+	color: white;
+	font-family: "Montserrat";
+	font-size: 30px;
+	text-align: center;
+	transition: 1s;
+}
+#text:hover{
+	color: #ff6249;
+	font-size: 40px;
+}
+#bhoimage{
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	transition: 0.5s;
+}
+#bhoimage:hover{
+	-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 27px;
+    height: 27px;
+}
+.close-animatedModal{
+	text-align: center;
+	margin-top: 20px;
+}
+#cool{
+	transition: 0.5s;
+	text-align: center !important;
+}
+#cool:hover{
+	-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+hr{
+	width: 60px;
+}
+#hire{
+	color: #ff6249;
+	transition: 1s;
+	font-family: "Raleway";
+}
+#hire:hover{
+	color: white;
+	font-size: 13px;
+	background-color: transparent;
+}
+.soshe{
+	color: white;
+	transition: 1s;
+}
+#fb:hover{
+	color: #3b5998;
+	background-color: transparent; 
+}
+#tt:hover{
+	background-color: transparent;
+	color: #3b5998;
+}
+#yt:hover{
+	color: #e52d27;
+	background-color:transparent;
+}
+#li:hover{
+	color: #0077b5;
+	background-color: transparent;
+}
+#gh:hover{
+	color: #000;
+	background-color: transparent;
 }
