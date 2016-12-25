@@ -10,26 +10,31 @@ body{
 #text{
 	color: white;
 	font-family: "Montserrat";
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	transition: 1s;
 }
 #text:hover{
 	color: #ff6249;
-	font-size: 40px;
+	font-size: 25px;
+}
+#demo{
+	text-align: center;
+	list-style-type: none;
+}
+#nest{
+	text-align: center;
 }
 #bhoimage{
-	width: 30px;
-	height: 30px;
+	width: 100px;
+	height:100px;
 	border-radius: 50px;
-	transition: 0.5s;
+	text-align: center;
 }
 #bhoimage:hover{
-	-ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    width: 27px;
-    height: 27px;
+	-ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 .close-animatedModal{
 	text-align: center;
@@ -80,4 +85,7 @@ hr{
 #gh:hover{
 	color: #000;
 	background-color: transparent;
+}
+.modal-content{
+	background-color: #000;
 }

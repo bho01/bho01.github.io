@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="animatedModal.min.js"></script>
   <script src="bootstrap.min.js"></script>
+  <script src="jqueryrotate.js"></script>
   <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -24,7 +25,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
       </button>
-      <a class="navbar-brand" href="#animatedModal"><img id = "bhoimage" src="bho.png"></a>
+      <a class="navbar-brand" href="#animatedModal"><div id = "text">b.ho</div></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -33,16 +34,12 @@
     </div>
 </nav>
 <div id = "inanout">
-<hr>
-<div id = "text">b.ho</div>
-<hr>
+
+<div id = "nest"><img src="bho.png" id = "bhoimage" data-toggle="collapse" data-target="#demo"></div>
+
 </div>
-<nav class="navbar navbar-custom navbar-fixed-bottom" id = "whitebottom">
-    <div class="navbar-header">
-      <button class="navbar-toggle" id = "sml" data-toggle="collapse" data-target="#navbarTwo">social media</button>
-    </div>
   <div class = "collapse navbar-collapse" id = "navbarTwo">
-    <ul class="nav navbar-nav" id = "center-bottom">
+    <ul class="collapse" id = "demo">
       <li><a class = "soshe" id = "fb" href="https://www.facebook.com/profile.php?id=100013373198907"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
       <li><a class = "soshe" id = "tt" href="https://twitter.com/brendonho01"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
       <li><a class = "soshe" id = "yt" href="https://www.youtube.com/channel/UCEIKL_uusvSIeZolNNiPbRA"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></i></a></li>
@@ -50,7 +47,6 @@
       <li><a class = "soshe" id = "li" href="https://www.linkedin.com/in/brendon-h-207b1b127?trk=hp-identity-name"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
     </ul>
   </div>
-</nav>
 
     <div id="animatedModal">
         <div class="close-animatedModal"><img id = "cool" src="http://edufactor.org/images/icons/zoneLB/Close-X-gy.png" width = "25" height="25"></div>
@@ -75,5 +71,14 @@
     </body>
 <script>
 	$(".navbar-brand").animatedModal();
+	$("#bhoimage").rotate({bind:{
+  click: function(){
+    $(this).rotate({
+      angle: 0,
+      animateTo:360
+      })
+    }
+  }
+});
 </script>
 </html>
