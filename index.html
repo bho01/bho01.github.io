@@ -35,18 +35,9 @@
 </nav>
 <div id = "inanout">
 
-<div id = "nest"><img src="bho.png" id = "bhoimage" data-toggle="collapse" data-target="#demo"></div>
+<div id = "nest"><img src="bho.png" id = "bhoimage" href="#animatedModal"></div>
 
 </div>
-  <div class = "collapse navbar-collapse" id = "navbarTwo">
-    <ul class="collapse" id = "demo">
-      <li><a class = "soshe" id = "fb" href="https://www.facebook.com/profile.php?id=100013373198907"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-      <li><a class = "soshe" id = "tt" href="https://twitter.com/brendonho01"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-      <li><a class = "soshe" id = "yt" href="https://www.youtube.com/channel/UCEIKL_uusvSIeZolNNiPbRA"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></i></a></li>
-      <li><a class = "soshe" id = "gh" href="https://github.com/brendonho01"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-      <li><a class = "soshe" id = "li" href="https://www.linkedin.com/in/brendon-h-207b1b127?trk=hp-identity-name"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-    </ul>
-  </div>
 
     <div id="animatedModal">
         <div class="close-animatedModal"><img id = "cool" src="http://edufactor.org/images/icons/zoneLB/Close-X-gy.png" width = "25" height="25"></div>
@@ -58,19 +49,21 @@
         Brendon Ho is an amateur programmer and an enthusiastic ultimate frisbee player. He has been writing lines of code since 2014.
         </div>
         </div>
-        <div id = "proj">
-          <div id="h2p">projects</div>
-            <div id = "proji">
-              <div id = "go"><a id = "goalr" href="http://goalr.herokuapp.com">Goalr</a></div>
-              <div id = "at"><a id = "atg" href="http://aatg-5e3a7.firebaseapp.com">atg</a></div>
-              <div id = "my"><a id = "mystext" href="http://brendonho01.github.io/mystext">MYSTEXT</a></div>
-              <div id = "co"><a id = "comingsoon" href="">coming soon</a></div>
-            </div>
-        </div>
+<div id = "social">
+                <ul class="soshenest" id = "demo">
+      <li><a class = "soshe" id = "fb" href="https://www.facebook.com/profile.php?id=100013373198907"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+      <li><a class = "soshe" id = "tt" href="https://twitter.com/brendonho01"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+      <li><a class = "soshe" id = "yt" href="https://www.youtube.com/channel/UCEIKL_uusvSIeZolNNiPbRA"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></i></a></li>
+      <li><a class = "soshe" id = "gh" href="https://github.com/brendonho01"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+      <li><a class = "soshe" id = "li" href="https://www.linkedin.com/in/brendon-h-207b1b127?trk=hp-identity-name"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+    </div>
+
     </div>
     </body>
 <script>
-	$(".navbar-brand").animatedModal();
+	$("#bhoimage").animatedModal();
 	$("#bhoimage").rotate({bind:{
   click: function(){
     $(this).rotate({
