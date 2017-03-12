@@ -1,135 +1,114 @@
 html, body{
-	height: 100%;
 	width: 100%;
 	margin: 0px;
+}
+
+#about{
+	position: relative;
+	background-image: url("bg2-ConvertImage.jpg");
+	width: 100%;
+	height: 1000px;
+	background-size: cover;
 	display: table;
 }
-body{
-	background: url("http://junkpit.net/wp-content/uploads/2011/08/Flinders-Street-Melbourne-Night-Freehand-003-Black-White.jpg") no-repeat center center scroll;
+
+.navbar-brand{
+	color: #00E676;
+	font-family: 'Roboto';
 }
-#text{
-	color: #ff6249;
-	font-family: "Montserrat";
-	font-size: 20px;
+.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    color: #00E676 !important;
+}
+.navbar{
+    text-align: center;
+}
+#bho{
 	text-align: center;
-	transition: 1s;
-}
-#text:hover{
 	color: #fff;
-	font-size: 25px;
+	font-family: "Roboto";
+	font-size: 100px;
+	transition: 2s;
 }
-#demo{
+#bho:hover{
+	color: #4CAF50;
+}
+#works{
+	position: relative;
+	height: 1350px;
+	width: 100%;
+	background-color: #263238;
+}
+#middle{
+		display: table-cell;
+	vertical-align: middle;
+}
+#mad{
 	text-align: center;
-	list-style-type: none;
+	margin-top: 50px;
+	color: #4CAF50;
+	font-family: "Roboto";
+	transition: 2s;
+	font-size: 35px;
 }
-#nest{
-	text-align: center;
+#mad:hover{
+	color: #fff;
 }
-#bhoimage{
-	width: 100px;
-	height:100px;
-	border-radius: 50px;
-	text-align: center;
+#rr{
+	transform: scale(-1,1);
 }
-#bhoimage:hover{
-	-ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
-    width: 110px;
-    height: 110px;
+#work-text{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 100px;
+	color: #fff;
+	font-family: "Roboto";
+	font-size: 35px;
+
+}
+#contact{
+	background-color: #000;
+	width: 100%;
+	height: 150px;
+	position: relative;
 }
 .close-animatedModal{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 25px;
 }
-#cool{
-	transition: 0.5s;
-	text-align: center !important;
+.modal-content{
+	margin-top: 25px;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
 }
-#cool:hover{
-	-ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+#h2{
+	font-family: 'Roboto';
+	font-size: 35px;
+	color: #fff;
 }
-.soshenest{
-	display: table-cell;
-	vertical-align: middle;
-
-}
-hr{
-	width: 60px;
-}
-#hire{
-	color: white;
-	transition: 1s;
-	font-family: "Raleway";
-}
-#hire:hover{
-	color: #ff6249;
-	font-size: 13px;
-	background-color: transparent;
-}
-#social{
-	width: 50%;
-	height: 100%;
-	float: right;
-	display: table;
+#desci{
+	color: #4CAF50;
+	font-family: 'Roboto';
+	font-size: 20px;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
 }
 #animatedModal{
 	background-color: #000 !important;
 }
-.modal-content{
-	background-color: #000 !important;
-	height: 100% !important;
-}
-#h2{
-	color: #ff6249;
-	font-family: 'Montserrat';
-	font-size: 30px;
+.cards{
+	margin-top: 150px;
 	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
+	position: absolute;
 }
-#desci{
-	color: #ff6249;
-	font-family: 'Raleway';
+.demo-card-wide.mdl-card {
+  width: 512px;
+  text-align: center;
+  margin-top: 50px;
+}
+#centerit{
+	position: relative;
 	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
-	display: table-cell;
-	vertical-align: middle;
-}
-.soshe{
-	color: white;
-	transition: 1s;
-	display:inline;
-}
-#demo{
-	text-align: center;
-}
-#fb:hover{
-	color: #3b5998;
-	background-color: transparent; 
-}
-#tt:hover{
-	background-color: transparent;
-	color: #3b5998;
-}
-#yt:hover{
-	color: #e52d27;
-	background-color:transparent;
-}
-#li:hover{
-	color: #0077b5;
-	background-color: transparent;
-}
-#gh:hover{
-	color: #000;
-	background-color: transparent;
-}
-#desc{
-	width: 50%;
-	height: 100%;
-	display: table;
-	float: left;
 }
