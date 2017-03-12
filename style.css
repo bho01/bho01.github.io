@@ -10,20 +10,7 @@ html, body{
 	height: 1000px;
 	background-size: cover;
 	display: table;
-}
-
-.navbar-brand{
-	color: #00E676;
-	font-family: 'Roboto';
-}
-.navbar .navbar-nav{
-    display: inline-block;
-    float: none;
-    color: #00E676 !important;
-}
-.navbar{
-    text-align: center;
-}
+} 
 #bho{
 	text-align: center;
 	color: #fff;
@@ -100,15 +87,29 @@ html, body{
 }
 .cards{
 	margin-top: 150px;
-	text-align: center;
 	position: absolute;
 }
 .demo-card-wide.mdl-card {
   width: 512px;
-  text-align: center;
   margin-top: 50px;
 }
-#centerit{
-	position: relative;
-	text-align: center;
+@media only screen and (max-width: 500px){
+	#about{
+		height: 500px;
+	}
+	#bho{
+		font-size: 50px;
+	}
+	#mad{
+		font-size: 17px;
+	}
+	#work-text{
+		text-align: center !important;
+		margin-left: 0px;
+	}
+	.demo-card-wide.mdl-card{
+		width: 256px;
+		margin-left: 75px;
+
+	}
 }
