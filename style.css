@@ -47,7 +47,7 @@ html, body{
 }
 #work-text{
 	position: absolute;
-	margin-left: 200px;
+	margin-left: 100px;
 	margin-top: 100px;
 	color: #fff;
 	font-family: "Roboto";
@@ -92,8 +92,9 @@ html, body{
 .demo-card-wide.mdl-card {
   width: 512px;
   margin-top: 50px;
+  margin-left: 100px;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 712px){
 	#about{
 		height: 500px;
 	}
@@ -105,7 +106,7 @@ html, body{
 	}
 	#work-text{
 		text-align: center !important;
-		margin-left: 50px;
+		margin-left: 75px;
 	}
 	.demo-card-wide.mdl-card{
 		width: 256px;
