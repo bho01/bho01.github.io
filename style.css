@@ -11,10 +11,6 @@ html, body{
 	height: 100%;
 	background-size: cover;
 	display: table;
-	    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 } 
 #bho{
 	margin-top: 30px;
