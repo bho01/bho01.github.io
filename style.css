@@ -10,6 +10,10 @@ html, body{
 	height: 1000px;
 	background-size: cover;
 	display: table;
+	    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 #bho{
 	margin-top: 30px;
@@ -26,7 +30,7 @@ html, body{
 	position: relative;
 	height: 1350px;
 	width: 100%;
-	background-color: #fff;
+	background-color: #263238;
 }
 #middle{
 		display: table-cell;
@@ -58,11 +62,15 @@ html, body{
 
 }
 #contact{
-	background-color: #263238;
+	background-image: url("bg2-ConvertImage.jpg");
 	width: 100%;
-	height: 150px;
+	height: 300px;
 	position: absolute;
 	display: table;
+		    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .close-animatedModal{
 	text-align: center;
@@ -103,7 +111,9 @@ html, body{
 	text-align: center;
 }
 #image{
-	border-radius: 50%;
+	border-radius: 40px;
+	border-color: #4CAF50 !important;
+	border-width: 10px !important;
 }
 #nest{
     text-align: center;
@@ -128,14 +138,6 @@ html, body{
 }
 .dt{
 	color: #000 !important;
-}
-.android-fab {
-  position: absolute;
-  right: 20%;
-  bottom: -26px;
-  z-index: 3;
-  background: #64ffda !important;
-  color: black !important;
 }
 @media only screen and (max-width: 712px){
 	#about{
