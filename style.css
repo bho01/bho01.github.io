@@ -76,6 +76,8 @@ html, body{
 .close-animatedModal{
 	text-align: center;
 	margin-top: 25px;
+	color: #fff;
+	letter-spacing: 0.5em;
 }
 .modal-content{
 	margin-top: 25px;
