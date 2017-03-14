@@ -83,20 +83,21 @@ html, body{
 .modal-content{
 	margin-top: 25px;
 	text-align: center;
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 #h2{
 	font-family: 'Roboto';
 	font-size: 35px;
 	color: #fff;
+	text-align: center;
 }
 #desci{
 	color: #4CAF50;
 	font-family: 'Roboto';
 	font-size: 20px;
-	margin-left: 20px !important;
-	margin-right: 20px !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
 	line-height: 30px;
 }
 #animatedModal{
@@ -172,6 +173,16 @@ html, body{
 	.mdl-chip.mdl-chip--contact{
 	margin-left: 0px;
 }
+	.modal-content{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#desci{
+		margin-right: 0px;
+		margin-left: 0px;
+		font-size: 15px;
+		line-height: 1.2em;
+	}
 }
 @media only screen and (max-height: 1000px){
 	#about{
