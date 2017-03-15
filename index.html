@@ -131,6 +131,29 @@
     </a>
   </div>
 </div>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Material Metronome</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    A metronome that utilizes Google's Material Design
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "https://bho01.github.io/mystext">
+      View on Play Store</a>
+  </div>
+  <div class="mdl-card__menu">
+  <a href = "https://github.com/bho01/mystext">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">code</i>
+    </button>
+    </a>
+  </div>
+</div>
+</div>
+
+
         </div>
       </div>
       <div id = "contact">
@@ -173,11 +196,11 @@
       <link rel="stylesheet" href="css/animate.css">
   <script src="js/animatedModal.min.js"></script>
     <div id="animatedModal">
-        <div class="close-animatedModal">X CLOSE</div>
+        <div class="close-animatedModal">X Close</div>
             
         <div class="modal-content">
         <div id = "desc">
-        <div id = "h2">ABOUT</div>
+        <div id = "h2">About</div>
         <br>
         <br>
         <div id = "desci">
@@ -186,8 +209,15 @@
         </div>
 </body>
 <script>
-$("#yeezers").animatedModal()
-$("#adidas").animatedModal();
+$("#yeezers").animatedModal({
+    animatedIn:'bounceInUp',
+    animatedOut: 'bounceOut',
+  });
+$("#adidas").animatedModal({
+    animatedIn:'bounceInLeft',
+    animatedOut: 'bounceOut',
+
+  });
 $("#bho").addClass("animated bounceInUp");
 $("#mad").addClass("animated bounceIn");
 $("#image").addClass("animated rotateIn");
