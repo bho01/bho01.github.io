@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-red.min.css" />
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:100,400,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/hover.css" media="all">
 
      
@@ -21,19 +21,19 @@
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Brendon Ho</span>
+      <span class="mdl-layout-title"><img id = "ih" src="images/bho-min.png" width="40px" height="40px;"></span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-navigation__link" id = "yeezers" href="#animatedModal" class = "hover-bob">About</a>
-        <a class="mdl-navigation__link" href="#works">Projects</a>
-        <a class="mdl-navigation__link" href="#contact">Contact</a>
+        <a class="mdl-navigation__link" id = "yeezers" href="#animatedModal" class = "hover-bob">-About-</a>
+        <a class="mdl-navigation__link" id = "proj" href="#works">-Projects-</a>
+        <a class="mdl-navigation__link" id = "cont" href="#contact">-Contact-</a>
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title dt">Brendon Ho</span>
+    <span class="mdl-layout-title dt"><img id = "ih2" src="images/bho-min.png" width="40px" height="40px;"></span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link hello" id = "adidas" href="#animatedModal">About</a>
       <a class="mdl-navigation__link hello" href="#works">Projects</a>
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div id = "works">
-        <div id = "work-text">PROJECTS:</div>
+        <div id = "work-text">Projects:</div>
         <div class = "cards">
 
           <div class="demo-card-wide mdl-card mdl-shadow--2dp" id = "centerit">
@@ -181,12 +181,12 @@
         <br>
         <br>
         <div id = "desci">
-        I am a high school student that currently develops mobile applications (preferably android) in his free time. Before becoming an Android developer, I made small and web applications as a hobby. .... Currently I am an Android Developer in my own time and a web developer at a gym called Newell Strength. Besides being a programmer, I am a musician and an ultimate frisbee player.
+        I am a high school student that currently develops mobile applications (preferably android) in his free time. I started my programming journey at around 14, when a good friend introduced it to me. From then on I taught myself how to program with the help of books, websites, and other programmers. Before becoming an Android developer, I wanted to be web developer. So in my free time, I made small websites and projects that were primarily web based. However, when I attended my first hackathon, MHacks, in the fall, my team and I built an app that tracked finances. From there I became interested in mobile app development. Currently I am an Android Developer in my own time and a web developer at a gym called Newell Strength. Besides being a programmer, I am a musician and an ultimate frisbee player.
         </div>
         </div>
 </body>
 <script>
-$("#yeezers").animatedModal();
+$("#yeezers").animatedModal()
 $("#adidas").animatedModal();
 $("#bho").addClass("animated bounceInUp");
 $("#mad").addClass("animated bounceIn");
