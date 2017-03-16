@@ -26,22 +26,22 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-navigation__link" id = "yeezers" href="#animatedModal" class = "hover-bob">-About-</a>
-        <a class="mdl-navigation__link smoothScroll" id = "proj" href="#works">-Projects-</a>
-        <a class="mdl-navigation__link smoothScroll" id = "cont" href="#contact">-Contact-</a>
+        <a class="mdl-navigation__link bb" id = "yeezers" href="#animatedModal" class = "hover-bob">-About-</a>
+        <a class="mdl-navigation__link smoothScroll bb" id = "proj" href="#works">-Projects-</a>
+        <a class="mdl-navigation__link smoothScroll bb" id = "cont" href="#contact">-Contact-</a>
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title dt"><img id = "ih2" src="images/bho-min.png" width="40px" height="40px;"></span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link hello" id = "adidas" href="#animatedModal">About</a>
-      <a class="mdl-navigation__link hello" href="#works">Projects</a>
-      <a class="mdl-navigation__link hello" href="#contact">Contact</a>
-      <a class="mdl-navigation__link hello" href="http://goalr.herokuapp.com">Goalr</a>
-      <a class="mdl-navigation__link hello" href="https://aatg-5e3a7.firebaseapp.com">Aatg</a>
-      <a class="mdl-navigation__link hello" href="https://bho01.github.io/mystext">Mystext</a>
-      <a class="mdl-navigation__link hello" href="http://newellstrength.com">Newell Strength</a>
+      <a class="mdl-navigation__link hello cc" id = "adidas" href="#animatedModal">About</a>
+      <a class="mdl-navigation__link hello cc" href="#works">Projects</a>
+      <a class="mdl-navigation__link hello cc" href="#contact">Contact</a>
+      <a class="mdl-navigation__link hello cc" href="http://goalr.herokuapp.com">Goalr</a>
+      <a class="mdl-navigation__link hello cc" href="https://aatg-5e3a7.firebaseapp.com">Aatg</a>
+      <a class="mdl-navigation__link hello cc" href="https://bho01.github.io/mystext">Mystext</a>
+      <a class="mdl-navigation__link hello cc" href="http://newellstrength.com">Newell Strength</a>
     </nav>
   </div>
   <main class="mdl-layout__content">
@@ -208,6 +208,7 @@
     <span class="mdl-chip__contact mdl-color--yellow mdl-color-text--white">E</span>
     <span class="mdl-chip__text"><a class = "sm" id = "em" href = "mailto:brendon.ho01@gmail.com">Email</a></span>
 </span>
+
 </div>
       </div>
     </div>
@@ -217,7 +218,7 @@
       <link rel="stylesheet" href="css/animate.css">
   <script src="js/animatedModal.min.js"></script>
     <div id="animatedModal">
-        <div class="close-animatedModal">X close</div>
+        <div class="close-animatedModal">x close</div>
             
         <div class="modal-content">
         <div id = "desc">
@@ -246,8 +247,11 @@ $("#image").animatedModal({
     animatedIn: 'bounceIn',
     animatedOut: 'bounceOut'
 });
-$("#bho").addClass("animated bounceInUp");
+$("#bho").addClass("animated rubberBand");
 $("#mad").addClass("animated bounceIn");
 $("#image").addClass("animated rotateIn");
+$(".mdl-layout-title").addClass("animated bounceInLeft");
+$(".bb").addClass("animated bounceInLeft");
+
 </script>
 </html>
