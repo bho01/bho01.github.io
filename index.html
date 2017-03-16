@@ -13,7 +13,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:100,400,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/hover.css" media="all">
-
+<script type="text/javascript" src="javascript/smoothscroll.js"></script>
      
 </head>
 <body>
@@ -27,8 +27,8 @@
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only">
         <a class="mdl-navigation__link" id = "yeezers" href="#animatedModal" class = "hover-bob">-About-</a>
-        <a class="mdl-navigation__link" id = "proj" href="#works">-Projects-</a>
-        <a class="mdl-navigation__link" id = "cont" href="#contact">-Contact-</a>
+        <a class="mdl-navigation__link smoothScroll" id = "proj" href="#works">-Projects-</a>
+        <a class="mdl-navigation__link smoothScroll" id = "cont" href="#contact">-Contact-</a>
       </nav>
     </div>
   </header>
@@ -48,13 +48,13 @@
     <div class="page-content">
       <div id = "about">
       <div id = "middle">
-      <div id = "prof"><img id = "image" src="images/bho-min.png" width="75px" height="75px;"></div>
+      <div id = "prof"><img id = "image" href = "#animatedModal" src="images/bho-min.png" width="75px" height="75px;"></div>
         <div id = "bho">BRENDON HO</div>
         <div id = "mad">ANDROID DEVELOPER</div>
         </div>
       </div>
       <div id = "works">
-        <div id = "work-text">Projects:</div>
+        <div id = "work-text">-Projects-</div>
         <div class = "cards">
 
           <div class="demo-card-wide mdl-card mdl-shadow--2dp" id = "centerit">
@@ -137,23 +137,44 @@
     <h2 class="mdl-card__title-text">Material Metronome</h2>
   </div>
   <div class="mdl-card__supporting-text">
-    A metronome that utilizes Google's Material Design
+    A metronome that utilizes Google's Material Design. Source released soon...
   </div>
   <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "https://bho01.github.io/mystext">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "#">
       View on Play Store</a>
   </div>
   <div class="mdl-card__menu">
-  <a href = "https://github.com/bho01/mystext">
-    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+  <a href = "#">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" disabled>
       <i class="material-icons">code</i>
     </button>
     </a>
   </div>
 </div>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">???</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    An Android app I am currently working on right now. Source released in the future...
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "#" disabled>
+      View on Play Store
+    </a>
+  </div>
+    <div class="mdl-card__menu">
+  <a href = "#">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" disabled="true">
+      <i class="material-icons">code</i>
+    </button>
+    </a>
+  </div>
 </div>
 
 
+          </div>
         </div>
       </div>
       <div id = "contact">
@@ -200,11 +221,14 @@
             
         <div class="modal-content">
         <div id = "desc">
-        <div id = "h2">About</div>
+        <div id = "h2">-About-</div>
         <br>
         <br>
         <div id = "desci">
-        I am a high school student that currently develops mobile applications (preferably android) in his free time. I started my programming journey at around 14, when a good friend introduced it to me. From then on I taught myself how to program with the help of books, websites, and other programmers. Before becoming an Android developer, I wanted to be web developer. So in my free time, I made small websites and projects that were primarily web based. However, when I attended my first hackathon, MHacks, in the fall, my team and I built an app that tracked finances. From there I became interested in mobile app development. Currently I am an Android Developer in my own time and a web developer at a gym called Newell Strength. Besides being a programmer, I am a musician and an ultimate frisbee player.
+          I am a high school student currently developing mobile applications (preferably android) in his free time. My programming journey sprung up in middle school, when a good friend of mine introduced the subject to me. I was interested immediately. I taught myself how to program with the help of books, websites, and other good programmers in my school. Before becoming an Android developer, I wanted to become web developer. So in my free time, I made small websites and projects that were primarily web based. But when I attended my first hackathon, MHacks, my team and I built an app that tracked finances. It was at that point I became interested in mobile app development. Currently I am a fresh Android Developer in my own time and a web developer at a gym called Newell Strength. The people at the gym are extremely friendly, the staff is awesome and the program is beneficial. I would highly recommend going there if you live in the area. Besides typing lines of code in my free time, I am a musician and an ultimate frisbee player.
+        <br>
+        <br>
+          My main goal in life is to help the community around me and the world that I live in. I strive to achieve that by improving the object that 70% of the world owns to this day: an internet-connected device.
         </div>
         </div>
 </body>
@@ -218,10 +242,12 @@ $("#adidas").animatedModal({
     animatedOut: 'bounceOut',
 
   });
+$("#image").animatedModal({
+    animatedIn: 'bounceIn',
+    animatedOut: 'bounceOut'
+});
 $("#bho").addClass("animated bounceInUp");
 $("#mad").addClass("animated bounceIn");
 $("#image").addClass("animated rotateIn");
-$(".demo-card-wide").addClass("animated slideInUp");
-
 </script>
 </html>
