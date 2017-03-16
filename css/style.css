@@ -80,7 +80,8 @@ html, body{
 	text-align: center;
 	margin-top: 25px;
 	color: #E91E63;
-	letter-spacing: 0.5em;
+	letter-spacing: 0.3em;
+	font-family: 'Roboto Mono';
 }
 .modal-content{
 	margin-top: 25px;
