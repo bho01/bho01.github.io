@@ -125,6 +125,19 @@ html, body{
   height: 176px;
   background: url('bg.jpg') center / cover;
 }
+.card-wide > #gr {
+  color: #fff;
+  height: 176px;
+  background: url('goalr.png') center / cover;
+}
+.card-wide > #aatg {
+  color: #fff;
+  height: 176px;
+  background: url('aatg.png') center / cover;
+}
+#aatgt{
+	color: #000;
+}
 #prof{
 	text-align: center;
 }
@@ -249,6 +262,11 @@ html, body{
 @media only screen and (max-width: 840px){
 #works{
 		height: 2200px;
+	}
+}
+@media only screen and (max-width: 400px){
+#works{
+		height: 2500px;
 	}
 }
 
