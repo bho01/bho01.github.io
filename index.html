@@ -55,9 +55,9 @@
       </div>
       <div id = "works">
         <div id = "work-text">-Projects-</div>
-        <div class = "cards">
+        <div class = "cards android-card-container mdl-grid" id = "cardid">
 
-          <div class="demo-card-wide mdl-card mdl-shadow--2dp" id = "centerit">
+          <div class="card-wide mdl-cell mdl-cell--4-col mdl-cell--7-col-tablet mdl-cell--6-col-phone mdl-card mdl-shadow--2dp" id = "centerit">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Goalr</h2>
   </div>
@@ -77,12 +77,12 @@
 </a>
 </div>
 
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+<div class="card-wide mdl-cell mdl-cell--4-col mdl-cell--7-col-tablet mdl-cell--6-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">AATG</h2>
   </div>
   <div class="mdl-card__supporting-text">
-    Post your own opinions about technology and its products
+    Post your own opinions and reviews about anything piece of technology.
   </div>
   <div class="mdl-card__actions mdl-card--border">
     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href = "https://aatg-5e3a7.firebaseapp.com">View Project
@@ -97,7 +97,7 @@
   </div>
 </div>
 
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+<div class="card-wide mdl-cell mdl-cell--4-col mdl-cell--7-col-tablet mdl-cell--6-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Mystext</h2>
   </div>
@@ -118,7 +118,7 @@
   </div>
 </div>
 
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+<div class="card-wide mdl-cell mdl-cell--4-col mdl-cell--7-col-tablet mdl-cell--6-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Newell Strength</h2>
   </div>
@@ -132,7 +132,7 @@
   </div>
 </div>
 
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+<div class="card-wide mdl-cell mdl-cell--4-col mdl-cell--7-col-tablet mdl-cell--6-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">Material Metronome</h2>
   </div>
@@ -152,7 +152,7 @@
   </div>
 </div>
 
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+<div class="card-wide mdl-cell mdl-cell--4-col mdl-cell--7-col-tablet mdl-cell--6-col-phone mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <h2 class="mdl-card__title-text">???</h2>
   </div>
@@ -234,7 +234,8 @@
         </div>
 </body>
 <script>
-$("#yeezers").animatedModal({
+$(document).ready(function() {
+    $("#yeezers").animatedModal({
     animatedIn:'bounceInUp',
     animatedOut: 'bounceOut',
   });
@@ -252,6 +253,6 @@ $("#mad").addClass("animated bounceIn");
 $("#image").addClass("animated rotateIn");
 $(".mdl-layout-title").addClass("animated bounceInLeft");
 $(".bb").addClass("animated bounceInLeft");
-
+});
 </script>
 </html>
