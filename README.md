@@ -1,2 +1,2 @@
-# brendonho01.github.io
-the other one broke
+# brendonho.com
+Website built completely from scratch. Uses Google's Material Design.
