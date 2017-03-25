@@ -140,7 +140,7 @@ html, body{
 	height: 176px;
 	background: url('banner.png') center / cover;
 }
-.card-wide > #news{
+.card-wide > #ns{
 	color: #fff;
 	height: 176px;
 	background: url('ns.png') center / cover;
