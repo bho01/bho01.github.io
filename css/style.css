@@ -135,6 +135,16 @@ html, body{
   height: 176px;
   background: url('aatg.png') center / cover;
 }
+.card-wide > #simpleclock{
+	color: #fff;
+	height: 176px;
+	background: url('banner.png') center / cover;
+}
+.card-wide > #news{
+	color: #fff;
+	height: 176px;
+	background: url('ns.png') center / cover;
+}
 #aatgt{
 	color: #000;
 }
