@@ -6,7 +6,7 @@ html, body{
 }
 #about{
 	position: relative;
-	background-image: url("bg.jpg");
+	background-image: url("bg2.jpg");
 	width: 100%;
 	height: 1000px;
 	background-size: cover;
@@ -26,7 +26,7 @@ html, body{
 	transition: 2s;
 }
 #bho:hover{
-	color: #4CAF50;
+	color: #2196F3;
 	letter-spacing: 0.1em;
 }
 #works{
@@ -45,7 +45,7 @@ html, body{
 #mad{
 	text-align: center;
 	margin-top: 20px;
-	color: #4CAF50;
+	color: #FFEB3B;
 	font-family: "Roboto Mono";
 	transition: 2s;
 	letter-spacing: 0.5em;
@@ -69,7 +69,7 @@ html, body{
 
 }
 #contact{
-	background-image: url("bg.jpg");
+	background-image: url("bg2.jpg");
 	width: 100%;
 	height: 300px;
 	position: absolute;
@@ -153,7 +153,7 @@ html, body{
 }
 #image{
 	border-radius: 50px;
-	border: solid #FF8A80 !important;
+	border: solid #2196F3 !important;
 	border-width: 3px !important;
 	transition: 2s;
 }
@@ -190,7 +190,7 @@ html, body{
 	color: #fff;
 }
 .mdl-navigation__link{
-	color: #fff !important;
+	color: #263238 !important;
 	font-family: 'Roboto Mono';
 }
 .hello{
