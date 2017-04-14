@@ -2,11 +2,13 @@ html, body{
 	height: 100%;
 	width: 100%;
 	margin: 0px;
-	background-color: #4CAF50;
+		background: #80D8FF;
+	background: -webkit-linear-gradient(left, #69F0AE , #80D8FF);
+	background-color: linear-gradient(to right, #69F0AE , #80D8FF) !important; /* Standard syntax */;
 }
 #about{
 	position: relative;
-	background-image: url("bg.jpg");
+	background-image: url("bg3.jpg");
 	width: 100%;
 	height: 1000px;
 	background-size: cover;
@@ -69,7 +71,7 @@ html, body{
 
 }
 #contact{
-	background-image: url("bg2.jpg");
+	background-image: url("bg3.jpg");
 	width: 100%;
 	height: 300px;
 	position: absolute;
