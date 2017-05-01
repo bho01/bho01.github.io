@@ -2,274 +2,36 @@ html, body{
 	height: 100%;
 	width: 100%;
 	margin: 0px;
-		background: #80D8FF;
-	background: -webkit-linear-gradient(left, #69F0AE , #80D8FF);
-	background-color: linear-gradient(to right, #69F0AE , #80D8FF) !important; /* Standard syntax */;
 }
-#about{
-	position: relative;
-	background-image: url("bg3.jpg");
-	width: 100%;
-	height: 1000px;
-	background-size: cover;
+body{
+	background: url('bg3.jpg')center center scroll;
 	display: table;
-		    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-#bho{
-	margin-top: 30px;
-	text-align: center;
-	color: #fff;
-	font-family: "Roboto";
-	font-weight: 500;
-	font-size: 35px;
-	transition: 2s;
-}
-#bho:hover{
-	color: #80D8FF;
-	letter-spacing: 0.1em;
-}
-#works{
-	position: relative;
-	height: 1000px;
-	width: 100%;
-	background-color: #263238;
-}
-#middle{
-		display: table-cell;
-		width: 100%;
-		height: 100%;
-	vertical-align: middle;
-	position: relative;
-}
-#mad{
-	text-align: center;
-	margin-top: 20px;
-	color: #00E676;
-	font-family: "Roboto Mono";
-	transition: 2s;
-	letter-spacing: 0.5em;
-	font-size: 20px;
-}
-#mad:hover{
-	color: #fff;
-	letter-spacing: 0.3em;
-}
-#rr{
-	transform: scale(-1,1);
-}
-#work-text{
-	position: absolute;
-	margin-left: 100px;
-	margin-top: 100px;
-	color: #FFC107;
-	font-family: "Roboto Mono", monospace;
-	font-size: 20px;
-	letter-spacing: 0.3em;
-
-}
-#contact{
-	background-image: url("bg3.jpg");
-	width: 100%;
-	height: 300px;
-	position: absolute;
-	display: table;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.close-animatedModal{
-	text-align: center;
-	margin-top: 25px;
-	color: #E91E63;
-	letter-spacing: 0.3em;
-	font-family: 'Roboto Mono';
-}
-.close-animatedModal:hover{
-	font-size: 15px;
-}
-.modal-content{
-	margin-top: 25px;
-	text-align: center justify;
-	text-justify: inter-word;
-	margin-right: 100px;
-	margin-left: 100px;
-}
-#h2{
-	font-family: 'Roboto Mono', monospace;
-	font-size: 27px;
-	color: #2196F3;
-	text-align: center;
-	letter-spacing: 0.2em;
-}
-#desci{
-	color: #4CAF50;
-	font-family: 'Roboto Mono', monospace;
-	font-size: 15px;
-	margin-left: 10px !important;
-	margin-right: 10px !important;
-	line-height: 30px;
-}
-#animatedModal{
-	background-color: #263238 !important;
-}
-.cards{
-	margin-top: 200px !important;
-	margin-left: 80px !important;
-	margin-right: 80px !important;
-	position: absolute;
-}
-.card-wide > .mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url('bg.jpg') center / cover;
-}
-.card-wide > #gr {
-  color: #fff;
-  height: 176px;
-  background: url('goalr.png') center / cover;
-}
-.card-wide > #aatg {
-  color: #fff;
-  height: 176px;
-  background: url('aatg.png') center / cover;
-}
-.card-wide > #simpleclock{
-	color: #fff;
-	height: 176px;
-	background: url('banner.png') center / cover;
-}
-.card-wide > #ns{
-	color: #fff;
-	height: 176px;
-	background: url('ns.png') center / cover;
-}
-#aatgt{
-	color: #000;
-}
-#prof{
-	text-align: center;
-}
-#image{
-	border-radius: 50px;
-	border: solid #2196F3 !important;
-	border-width: 3px !important;
-	transition: 2s;
-}
-#image:hover{
-	border-color: #fff !important;
-	width: 80px;
-	height: 80px;
-}
-#ih{
-	border-radius: 50px;
-	border: solid #fff !important;
-	border-width: 1px !important;
-	transition: 2s;
-}
-#ih2{
-	border-radius: 50px;
-	border: solid #4CAF50 !important;
-	border-width: 1px !important;
-	transition: 2s;
 }
 #nest{
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
-.mdl-chip.mdl-chip--contact{
-	margin-left: 30px;
-}
-.sm{
-	text-decoration: none;
-	color: #000;
-}
-.mdl-layout-title{
-	color: #fff;
-}
-header.custom-header{
-	background: #80D8FF;
-	background: -webkit-linear-gradient(left, #69F0AE , #80D8FF);
-	background-color: linear-gradient(to right, #69F0AE , #80D8FF) !important; /* Standard syntax */;
-}
-.mdl-navigation__link{
-	color: #fff !important;
-	font-family: 'Roboto Mono';
-}
-.hello{
-	color: #000 !important;
-	background-color: #fff !important;
-}
-.dt{
-	color: #000 !important;
-}
-#yeezers{
-	transition: 0.5s;
-}
-#yeezers:hover{
-	color: #FF9800 !important;
-	font-size: 13px;
-}
-#proj{
-	transition: 1s;
-}
-#proj:hover{
-	color: #BA68C8 !important;
-	font-size: 13px;
-}
-#cont{
-	transition: 1s;
-}
-#cont:hover{
-	color: #03A9F4 !important;
-	font-size: 13px;
-}
-#ccr{
 	text-align: center;
-	font-family: 'Roboto Mono';
-	color: #F44336;
-	vertical-align: bottom;
+	display: table-cell;
+	vertical-align: middle;
+}
+#under{
+	padding-top: 25px;
+}
+.font{
+	color: white;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	display: inline-block;
+	padding-left: 30px;
+	color: #FF5252;
+}
+.fontu{
+	font-family: 'Montserrat';
+	text-decoration: none;
+}
+.fontu:hover{
+	color: #FF5252;
 }
 @media only screen and (max-width: 712px){
-	#about{
-		height: 500px;
-	}
-	#bho{
-		font-size: 20px;
-	}
-	#mad{
-		font-size: 13px;
-	}
-	#work-text{
-		text-align: center !important;
-		margin-left: 75px;
-	}
-	#contact{
-		background-color: #4CAF50;
-	}
-	.mdl-navigation{
-		background-color: #000 !important;
-	}
-	#works{
-		height: 2200px;
-	}
-	.mdl-chip.mdl-chip--contact{
-	margin-left: 0px;
-}
-	.modal-content{
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	#desci{
-		margin-right: 0px;
-		margin-left: 0px;
-		font-size: 15px;
-		line-height: 1.2em;
-	}
+	
 }
 @media only screen and (max-width: 500px){
 #works{
