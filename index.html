@@ -8,8 +8,8 @@
   <link rel="icon" href="images/bho.png" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-red.min.css" />
-<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/hover.css" media="all">
@@ -17,20 +17,65 @@
 
 </head>
 <body>
+
 <div id = "nest">
 
-  <div id = "logo"><img src = "css/Logo.png" width = "400" height = "400"></div>
 
   <div id = "under">
-    <div id = "abt" class = "font"><a href = "#" class = "fontu">ABOUT</a></div>
-    <div id = "proj" class = "font"><a href = "#" class = "fontu">PROJECTS</a></div>
-    <div id = "cont" class = "font"><a href = "#" class = "fontu">CONTACT</a></div>
+    <div id = "abt" class = "font"><a href = "#animatedModal" class = "fontu" id = "abtl">ABOUT</a></div>
+    <div id = "proj" class = "font"><a href = "#" class = "fontu" id = "projl" type = "disabled">PROJECTS</a></div>
+    <div id = "cont" class = "font"><a href = "#" class = "fontu" id = "contl">CONTACT</a></div>
   
   </div>
+
+
+  <div id = "logo"><img src = "css/Logo.png" id = "logoi"></div>
+
   
+
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <link rel="stylesheet" href="css/animate.css">
+  <script src="js/animatedModal.min.js"></script>
+
+
+      <div id="animatedModal">
+        <div class="close-animatedModal">X CLOSE</div>
+
+        <div class="modal-content">
+        <div id = "desc">
+        <div id = "h2">ABOUT ME</div>
+        <br>
+        <br>
+        <div id = "desci">
+          I am a high school student currently developing android applications in my free time. My programming journey sprung up in middle school, when a friend of mine introduced the subject to me. I was interested immediately. I taught myself how to program javascript with the help of books, websites, and other great programmers in my school. My first completed project was a little game on Khan Academy which was created in JavaScript. Before becoming an Android developer, I wanted to become web developer. So in my free time, I made small websites and projects that were primarily web based. But when I attended my first hackathon, MHacks, my team and I built an app that tracked finances. It was at that point I became interested in mobile app development. Initially, I started as an Android Developer, creating apps in Java. Eventually, I found React-Native; a JavaScript Library which enables devleopers to develop native apps with JavaScript. Currently I am a fresh React-Native Developer in my own time and a web developer at a gym called Newell Strength. The people at the gym are extremely friendly, the staff is awesome and the program is beneficial. I would highly recommend going there if you live in the area. I lean towards JavaScript as my favorite languate since it is prevalent everywhere: node.js, frontend, React-Native, etc. However I have some knowledge in Java as well.
+          <br>
+          <br>
+          Besides typing lines of code in my free time, I am a musician and an ultimate frisbee player.
+        <br>
+        <br>
+          I plan to continue computer science despite the obstacles and challanges that might come with it. As for the future, I hope to expand my knowledge in the subject and developing more applications; possibly in the iOS platform as well.
+          <br>
+          <br>
+          Ultimately, my main goal in life is to help the community around me and the world in which I live in. I strive to achieve that by improving the object that most of the people in this world own to this day: an internet-connected device.
+          <br>
+          <br>
+        </div>
+        </div>
+        </div>
+        </div>
+
+         
 </body>
 <script>
+$(document).ready(function() {
+    $("#abtl").animatedModal({
+    animatedIn:'bounceIn',
+    animatedOut: 'bounceOut',
+  });
+$("#logo").addClass("animated bounceInUp");
+$("#under").addClass("animated bounceInDown");
 
+});
 </script>
 </html>

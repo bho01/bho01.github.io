@@ -11,61 +11,110 @@ body{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+	height: 100%;
 }
 #under{
-	padding-top: 25px;
+	padding-bottom: 50px;
+	text-align: center;
 }
 .font{
 	color: white;
 	font-family: 'Montserrat';
 	font-weight: bold;
 	display: inline-block;
-	padding-left: 30px;
+	letter-spacing: 2.5px;
+	padding-left: 15px;
 	color: #FF5252;
+}
+.font:hover{
+	color: #FFF;
+}
+
+#logoi{
+	height: 400px;
+	width: 400px;
+}
+.close-animatedModal{
+	text-align: center;
+	margin-top: 25px;
+	color: #FF4081;
+	letter-spacing: 0.1em;
+	font-family: 'Roboto';
+}
+.close-animatedModal:hover{
+	font-size: 15px;
+}
+.modal-content{
+	margin-top: 25px;
+	text-align: center justify;
+	text-justify: inter-word;
+	margin-right: 100px;
+	margin-left: 100px;
+	background-color: #000 !important;
+}
+#h2{
+	font-family: 'Montserrat';
+	font-size: 27px;
+	color: #00E676;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+#desci{
+	color: #FFF;
+	font-family: 'Roboto';
+	font-size: 15px;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+	line-height: 30px;
+	background-color: #000;
+}
+#animatedModal{
+	background-color: #000 !important;
 }
 .fontu{
 	font-family: 'Montserrat';
 	text-decoration: none;
+	color: #FF5252 !important;
+	font-size: 15px;
+	transition: 1.5s;
 }
 .fontu:hover{
-	color: #FF5252;
+	color: #FFF !important;
+	text-decoration: none;
+}
+#projl{
+	color: #9E9E9E !important;
+}
+#contl{
+	color: #9E9E9E !important;
+}
+#yo{
+	text-align: center !important;
+	width: 75px;
+	height: 75px;
 }
 @media only screen and (max-width: 712px){
-	
+	#logoi{
+	height: 350px;
+	width: 350px;
+}
 }
 @media only screen and (max-width: 500px){
-#works{
-		height: 2400px;
-	}
+#logoi{
+	height: 300px;
+	width: 300px;
+}
 }
 @media only screen and (max-width: 840px){
-#works{
-		height: 2200px;
-	}
+#logoi{
+	height: 300px;
+	width: 300px;
+}
 }
 @media only screen and (max-width: 400px){
-#works{
-		height: 2500px;
-	}
+#logoi{
+	height: 200px;
+	width: 200px;
+}
 }
 
-@media only screen and (max-height: 1000px){
-	#about{
-		height: 800px;
-	}
-}
-@media only screen and (max-height: 800px){
-	#about{
-		height: 700px;
-	}
-}
-@media only screen and (max-height: 600px){
-	#about{
-		height: 500px;
-	}
-}
-@media only screen and (max-height: 400px){
-	#about{
-		height: 300px;
-	}
-}
