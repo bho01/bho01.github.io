@@ -18,16 +18,7 @@ body{
 	text-align: center;
 }
 .font{
-	color: white;
-	font-family: 'Montserrat';
-	font-weight: bold;
 	display: inline-block;
-	letter-spacing: 2.5px;
-	padding-left: 15px;
-	color: #FF5252;
-}
-.font:hover{
-	color: #FFF;
 }
 
 #logoi{
@@ -72,10 +63,13 @@ body{
 	background-color: #000 !important;
 }
 .fontu{
+	color: white;
 	font-family: 'Montserrat';
-	text-decoration: none;
-	color: #FF5252 !important;
-	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	letter-spacing: 2.5px;
+	padding-left: 15px;
+	color: #FF5252;
 	transition: 1.5s;
 }
 .fontu:hover{
@@ -104,6 +98,9 @@ body{
 		font-size: 12px;
 		line-height: 1.2em;
 	}
+	.fontu{
+	font-size: 10px;
+}
 }
 @media only screen and (max-width: 500px){
 #logoi{
@@ -116,6 +113,9 @@ body{
 		font-size: 12px;
 		line-height: 1.2em;
 	}
+	.fontu{
+	font-size: 10px;
+}
 }
 @media only screen and (max-width: 840px){
 #logoi{
@@ -128,6 +128,9 @@ body{
 		font-size: 12px;
 		line-height: 1.2em;
 	}
+	.fontu{
+	font-size: 10px;
+}
 }
 @media only screen and (max-width: 400px){
 #logoi{
@@ -140,5 +143,8 @@ body{
 		font-size: 12px;
 		line-height: 1.2em;
 	}
+	.fontu{
+	font-size: 10px;
+}
 }
 
