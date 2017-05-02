@@ -98,23 +98,47 @@ body{
 	height: 350px;
 	width: 350px;
 }
+#desci{
+		margin-right: 0px;
+		margin-left: 0px;
+		font-size: 12px;
+		line-height: 1.2em;
+	}
 }
 @media only screen and (max-width: 500px){
 #logoi{
 	height: 300px;
 	width: 300px;
 }
+#desci{
+		margin-right: 0px;
+		margin-left: 0px;
+		font-size: 12px;
+		line-height: 1.2em;
+	}
 }
 @media only screen and (max-width: 840px){
 #logoi{
 	height: 300px;
 	width: 300px;
 }
+#desci{
+		margin-right: 0px;
+		margin-left: 0px;
+		font-size: 12px;
+		line-height: 1.2em;
+	}
 }
 @media only screen and (max-width: 400px){
 #logoi{
 	height: 200px;
 	width: 200px;
 }
+#desci{
+		margin-right: 0px;
+		margin-left: 0px;
+		font-size: 12px;
+		line-height: 1.2em;
+	}
 }
 
