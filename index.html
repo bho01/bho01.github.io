@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Brendon Ho</title>
-	<meta charset="utf-8">
-	<meta name = "about" content = "brendonho01">
+  <title>Brendon Ho</title>
+  <meta charset="utf-8">
+  <meta name = "about" content = "brendonho01">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/bho.png" type="image/x-icon"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -22,13 +22,13 @@
 
   <div id = "under">
     <div id = "abt" class = "font"><a href = "#animatedModal" class = "fontu" id = "abtl">ABOUT</a></div>
-    <div id = "proj" class = "font"><a href = "#" class = "fontu" id = "projl" type = "disabled">PROJECTS</a></div>
+    <div id = "proj" class = "font"><a href = "#animatedModal2" class = "fontu" id = "projl">PROJECTS</a></div>
     <div id = "cont" class = "font"><a href = "#" class = "fontu" id = "contl">CONTACT</a></div>
   
   </div>
 
 
-  <div id = "logo"><img src = "css/Logo.png" id = "logoi"></div>
+  <div id = "logo"><img src = "css/Logo2.png" id = "logoi"></div>
 
   
 
@@ -64,17 +64,36 @@
         </div>
         </div>
 
+        <div id = "animatedModal2">
+          <div class = "close-animatedModal2">X CLOSE</div>
+            <div class="modal-content">
+          <div id = "desc">
+        <div id = "h3">PROJECTS</div>
+        <br>
+        <br>
+        <div id = "desci">
+          
+        </div>
+        </div>
+        </div>
+        </div>
+
          
 </body>
 <script>
 $(document).ready(function() {
     $("#abtl").animatedModal({
+    modalTarget: "animatedModal",
     animatedIn:'bounceIn',
     animatedOut: 'bounceOut',
   });
+    $("#projl").animatedModal({
+      modalTarget: "animatedModal2",
+      animatedIn: "bounceInUp",
+      animatedOut: "bounceOut",
+    });
 $("#logo").addClass("animated bounceInUp");
 $("#under").addClass("animated bounceInDown");
-
 });
 </script>
 </html>

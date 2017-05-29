@@ -35,6 +35,16 @@ body{
 .close-animatedModal:hover{
 	font-size: 15px;
 }
+.close-animatedModal2{
+	text-align: center;
+	margin-top: 25px;
+	color: #FF4081;
+	letter-spacing: 0.1em;
+	font-family: 'Roboto';
+}
+.close-animatedModal2:hover{
+	font-size: 15px;
+}
 .modal-content{
 	margin-top: 25px;
 	text-align: center justify;
@@ -44,6 +54,13 @@ body{
 	background-color: #000 !important;
 }
 #h2{
+	font-family: 'Montserrat';
+	font-size: 27px;
+	color: #00E676;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+#h3{
 	font-family: 'Montserrat';
 	font-size: 27px;
 	color: #00E676;
@@ -62,6 +79,9 @@ body{
 #animatedModal{
 	background-color: #000 !important;
 }
+#animatedModal2{
+	background-color: #000 !important;
+}
 .fontu{
 	color: white;
 	font-family: 'Montserrat';
@@ -75,9 +95,6 @@ body{
 .fontu:hover{
 	color: #FFF !important;
 	text-decoration: none;
-}
-#projl{
-	color: #9E9E9E !important;
 }
 #contl{
 	color: #9E9E9E !important;
