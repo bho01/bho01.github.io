@@ -21,14 +21,14 @@
 
 
   <div id = "under">
-    <div id = "abt" class = "font"><a href = "#animatedModal" class = "fontu" id = "abtl">ABOUT</a></div>
+    <div id = "abt" class = "font"><a href = "#animatedModal" class = "fontu" id = "abtl" onclick="abtClick">ABOUT</a></div>
     <div id = "proj" class = "font"><a href = "#animatedModal2" class = "fontu" id = "projl">PROJECTS</a></div>
     <div id = "cont" class = "font"><a href = "#" class = "fontu" id = "contl">CONTACT</a></div>
   
   </div>
 
 
-  <div id = "logo"><img src = "css/logo2.png" id = "logoi"></div>
+  <div id = "logo"><img src = "css/logo2.png" id = "logoi" loop = infinite></div>
 
   
 
@@ -84,16 +84,23 @@
 $(document).ready(function() {
     $("#abtl").animatedModal({
     modalTarget: "animatedModal",
-    animatedIn:'bounceIn',
-    animatedOut: 'bounceOut',
+    animatedIn:'bounceInUp',
+    animatedOut: 'bounceOutDown',
   });
     $("#projl").animatedModal({
       modalTarget: "animatedModal2",
       animatedIn: "bounceInUp",
-      animatedOut: "bounceOut",
+      animatedOut: "bounceOutDown",
     });
 $("#logo").addClass("animated bounceInUp");
 $("#under").addClass("animated bounceInDown");
+function abtClick(){
+$('#abtl').blurjs({
+  source: '#logoi',
+  radius: 7,
+  overlay: 'rgba(255,255,255,0.4)'
+});
+}
 });
 </script>
 </html>

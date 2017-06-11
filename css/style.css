@@ -2,10 +2,16 @@ html, body{
 	height: 100%;
 	width: 100%;
 	margin: 0px;
+	box-shadow: 0px !important;
+	text-shadow: 0px;
 }
 body{
-	background: url('bg3.jpg')center center scroll;
+	background: url('gifity.gif')no-repeat center center scroll;
 	display: table;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #nest{
 	text-align: center;
@@ -52,6 +58,8 @@ body{
 	margin-right: 100px;
 	margin-left: 100px;
 	background-color: #000 !important;
+	border-radius: 0px;
+	box-shadow: 0px !important;
 }
 #h2{
 	font-family: 'Montserrat';
