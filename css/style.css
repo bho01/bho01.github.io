@@ -6,7 +6,7 @@ html, body{
 	text-shadow: 0px;
 }
 body{
-	background: url('backagen.JPG')no-repeat center center scroll;
+	background: url('back.JPG')no-repeat center center scroll;
 	display: table;
 	height: 100%;
 	 -webkit-background-size: cover;
@@ -131,10 +131,6 @@ body{
 	color: #FFF !important;
 	text-decoration: none;
 }
-#projdesc{
-	padding-left: 10px !important;
-	padding-right: 10px !important;
-}
 .box{
 	background-color: #fff;
 	width: 100%;
@@ -147,6 +143,8 @@ body{
 	font-family: 'Arimo';
 	color: #fff;
 	font-size: 15px;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
 }
 #yo{
 	text-align: center !important;
